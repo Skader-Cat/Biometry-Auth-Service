@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "face-recognition-service"
+version = "0.1.0"
+description = ""
+authors = ["Vaez Vladimir <Skader-kot@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.packages]]
+include = "src"
+
